@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="backdrop" x1="156" y1="74" x2="1392" y2="874" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171522"/>
+      <stop offset=".53" stop-color="#0C0D14"/>
+      <stop offset="1" stop-color="#151018"/>
+    </linearGradient>
+    <radialGradient id="violet-glow" cx="0" cy="0" r="1" gradientTransform="matrix(620 310 -301 602 1114 215)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A88BF0" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#A88BF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose-glow" cx="0" cy="0" r="1" gradientTransform="matrix(403 228 -243 430 405 706)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8799A" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#E8799A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="328" y1="170" x2="1248" y2="732" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171923"/>
+      <stop offset="1" stop-color="#0D0F16"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#A88BF0"/>
+      <stop offset="1" stop-color="#6A5BD7" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="base" x1="223" y1="731" x2="1376" y2="781" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34323D"/>
+      <stop offset=".5" stop-color="#77727F"/>
+      <stop offset="1" stop-color="#302E38"/>
+    </linearGradient>
+    <filter id="soft" x="950" y="430" width="290" height="300" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="100" y="86" width="1400" height="790" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+  </defs>
+  <path fill="url(#backdrop)" d="M0 0h1600v900H0z"/>
+  <path fill="url(#violet-glow)" d="M0 0h1600v900H0z"/>
+  <path fill="url(#rose-glow)" d="M0 0h1600v900H0z"/>
+  <ellipse cx="800" cy="804" fill="#000" opacity=".7" rx="594" ry="34" filter="url(#shadow)"/>
+
+  <g>
+    <rect x="280" y="115" width="1040" height="635" rx="29" fill="#282731" stroke="#77727F" stroke-opacity=".64" stroke-width="2"/>
+    <rect x="297" y="132" width="1006" height="601" rx="16" fill="url(#screen)"/>
+    <circle cx="800" cy="123" r="3" fill="#6F6D79"/>
+    <path fill="#12131A" d="M297 148a16 16 0 0 1 16-16h974a16 16 0 0 1 16 16v42H297v-42Z"/>
+    <circle cx="321" cy="165" r="5" fill="#E8799A"/>
+    <circle cx="339" cy="165" r="5" fill="#F5B841"/>
+    <circle cx="357" cy="165" r="5" fill="#5FB8B0"/>
+    <path d="M386 165h33" stroke="#A88BF0" stroke-linecap="round" stroke-width="3"/>
+    <text x="442" y="170" fill="#E9E7F0" font-family="Arial,sans-serif" font-size="15" font-weight="600">mood canvas</text>
+    <text x="1135" y="169" fill="#9896A7" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.8">YOUR SPACE</text>
+
+    <text x="344" y="231" fill="#A88BF0" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2.5">YOUR DASHBOARD</text>
+    <text x="344" y="271" fill="#F3F1EC" font-family="Georgia,serif" font-size="30">A little more in tune.</text>
+    <text x="344" y="299" fill="#9292A3" font-family="Arial,sans-serif" font-size="13">Here is how your last 30 days have felt.</text>
+
+    <rect x="344" y="327" width="260" height="92" rx="13" fill="#1A1B25" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <text x="365" y="354" fill="#9B9BAD" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">REFLECTIONS</text>
+    <text x="365" y="394" fill="#F3F1EC" font-family="Georgia,serif" font-size="31">18</text>
+    <text x="416" y="392" fill="#8E8D9C" font-family="Arial,sans-serif" font-size="11">This month</text>
+    <rect x="619" y="327" width="260" height="92" rx="13" fill="#1A1B25" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <text x="640" y="354" fill="#9B9BAD" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">YOUR MOOD</text>
+    <text x="640" y="389" fill="#C6BAFF" font-family="Georgia,serif" font-size="24">Mostly calm</text>
+    <text x="640" y="406" fill="#8E8D9C" font-family="Arial,sans-serif" font-size="10">A moment to breathe</text>
+    <rect x="894" y="327" width="362" height="92" rx="13" fill="#1A1B25" stroke="#FFFFFF" stroke-opacity=".09"/>
+    <text x="916" y="354" fill="#9B9BAD" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">CHECK-IN STREAK</text>
+    <text x="916" y="394" fill="#F3F1EC" font-family="Georgia,serif" font-size="31">6 days</text>
+    <text x="1018" y="392" fill="#8E8D9C" font-family="Arial,sans-serif" font-size="11">A gentle rhythm</text>
+
+    <rect x="344" y="440" width="575" height="249" rx="14" fill="#171821" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="370" y="475" fill="#F3F1EC" font-family="Arial,sans-serif" font-size="14" font-weight="600">Daily activity</text>
+    <text x="370" y="495" fill="#89899A" font-family="Arial,sans-serif" font-size="10">Your reflections over the last 30 days</text>
+    <path d="M370 526h523M370 570h523M370 614h523M370 658h523" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <g fill="url(#bar)">
+      <rect x="379" y="626" width="10" height="32" rx="4"/><rect x="396" y="603" width="10" height="55" rx="4"/>
+      <rect x="413" y="617" width="10" height="41" rx="4"/><rect x="430" y="581" width="10" height="77" rx="4"/>
+      <rect x="447" y="610" width="10" height="48" rx="4"/><rect x="464" y="563" width="10" height="95" rx="4"/>
+      <rect x="481" y="591" width="10" height="67" rx="4"/><rect x="498" y="548" width="10" height="110" rx="4"/>
+      <rect x="515" y="599" width="10" height="59" rx="4"/><rect x="532" y="576" width="10" height="82" rx="4"/>
+      <rect x="549" y="620" width="10" height="38" rx="4"/><rect x="566" y="540" width="10" height="118" rx="4"/>
+      <rect x="583" y="585" width="10" height="73" rx="4"/><rect x="600" y="560" width="10" height="98" rx="4"/>
+      <rect x="617" y="611" width="10" height="47" rx="4"/><rect x="634" y="531" width="10" height="127" rx="4"/>
+      <rect x="651" y="574" width="10" height="84" rx="4"/><rect x="668" y="550" width="10" height="108" rx="4"/>
+      <rect x="685" y="605" width="10" height="53" rx="4"/><rect x="702" y="565" width="10" height="93" rx="4"/>
+      <rect x="719" y="620" width="10" height="38" rx="4"/><rect x="736" y="544" width="10" height="114" rx="4"/>
+      <rect x="753" y="588" width="10" height="70" rx="4"/><rect x="770" y="562" width="10" height="96" rx="4"/>
+      <rect x="787" y="609" width="10" height="49" rx="4"/><rect x="804" y="528" width="10" height="130" rx="4"/>
+      <rect x="821" y="572" width="10" height="86" rx="4"/><rect x="838" y="548" width="10" height="110" rx="4"/>
+      <rect x="855" y="599" width="10" height="59" rx="4"/><rect x="872" y="538" width="10" height="120" rx="4"/>
+    </g>
+    <text x="370" y="678" fill="#777786" font-family="Arial,sans-serif" font-size="9">1</text>
+    <text x="548" y="678" fill="#777786" font-family="Arial,sans-serif" font-size="9">10</text>
+    <text x="724" y="678" fill="#777786" font-family="Arial,sans-serif" font-size="9">20</text>
+    <text x="879" y="678" fill="#777786" font-family="Arial,sans-serif" font-size="9">30 days</text>
+
+    <rect x="934" y="440" width="322" height="249" rx="14" fill="#171821" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="959" y="475" fill="#F3F1EC" font-family="Arial,sans-serif" font-size="14" font-weight="600">Your mood art</text>
+    <text x="959" y="495" fill="#89899A" font-family="Arial,sans-serif" font-size="10">A portrait of your month</text>
+    <circle cx="1094" cy="581" r="85" fill="#5FB8B0" opacity=".4" filter="url(#soft)"/>
+    <circle cx="1084" cy="576" r="54" fill="#A88BF0" opacity=".65" filter="url(#soft)"/>
+    <circle cx="1131" cy="570" r="47" fill="#F5B841" opacity=".62" filter="url(#soft)"/>
+    <circle cx="1065" cy="605" r="46" fill="#5FB8B0" opacity=".64" filter="url(#soft)"/>
+    <circle cx="1120" cy="614" r="43" fill="#E8799A" opacity=".65" filter="url(#soft)"/>
+    <circle cx="1089" cy="550" r="34" fill="#6B8FD1" opacity=".6" filter="url(#soft)"/>
+    <circle cx="1095" cy="583" r="84" stroke="#A88BF0" stroke-opacity=".25" stroke-width="1.5"/>
+
+    <path d="m218 750 1164 0c-17 32-45 47-92 50H306c-43-3-72-19-88-50Z" fill="url(#base)" stroke="#9A96A1" stroke-opacity=".38" stroke-width="2"/>
+    <path d="M673 767h255c-8 12-16 17-27 17H700c-11 0-20-6-27-17Z" fill="#191820" opacity=".72"/>
+    <path d="M193 800c17 14 45 20 87 20h1039c40 0 68-6 89-20l-24-5H216l-23 5Z" fill="#1B1A22"/>
+    <path d="M193 800c17 14 45 20 87 20h1039c40 0 68-6 89-20" stroke="#7C7784" stroke-opacity=".4" stroke-width="2"/>
+  </g>
+</svg>
