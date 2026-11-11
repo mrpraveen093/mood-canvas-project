@@ -25,7 +25,12 @@ async function request(path, { method = 'GET', body } = {}) {
   }
 
   const data = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(data.message || 'Something went wrong');
+  if (!res.ok) {
+    if ([502, 503, 504].includes(res.status)) {
+      throw new Error('The API server is temporarily unavailable. Make sure the backend and MongoDB are running, then try again.');
+    }
+    throw new Error(data.message || `Request failed (${res.status})`);
+  }
   return data;
 }
 

@@ -41,16 +41,27 @@ export default function Dashboard() {
 
   return (
     <div className="page dashboard-page">
-      <header className="page-header dashboard-header">
-        <div>
-          <span className="eyebrow">Dashboard</span>
-          <h1>Good to see you, {firstName(user.name)}.</h1>
-          <p className="muted">Here is how your last 30 days have felt.</p>
-        </div>
-        <Link to="/studio" className="btn btn-primary">
-          <NotebookPen size={18} /> New reflection
-        </Link>
-      </header>
+
+<header className="page-header dashboard-header">
+  <div className="dashboard-welcome">
+    <span className="eyebrow">YOUR PERSONAL SPACE</span>
+
+    <h1>
+      Good to see you, {firstName(user.name)}.
+    </h1>
+
+    <p className="muted">
+      Every reflection tells a story. Here's how your last
+      30 days have felt.
+    </p>
+  </div>
+
+  <Link to="/studio" className="btn btn-primary dashboard-create-btn">
+    <NotebookPen size={18} />
+    New reflection
+  </Link>
+</header>
+
 
       <section className="stats dashboard-stats" aria-label="Last 30 days at a glance">
         <StatCard label="Reflections" value={stats.total} hint="Last 30 days" icon={Layers} />
